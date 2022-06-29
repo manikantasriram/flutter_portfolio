@@ -1,0 +1,65 @@
+name: flutter_portfolio
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+
+  #Firebase Database
+  cloud_firestore: ^3.1.18
+
+  # use link widget:
+  url_launcher: 6.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/html.png
+    - assets/css.png
+    - assets/javascript.png
+    - assets/react.png
+    - assets/java.png
+
+
+  # example:
+  fonts:
+    - family: ComicSansMS3
+      fonts:
+        - asset: assets/fonts/ComicSansMS3.TTF
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.TTF
+    - family: MontserratBold
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.TTF
+    - family: Autumn
+      fonts:
+        - asset: assets/fonts/Autumn-in-November.TTF
+
+
